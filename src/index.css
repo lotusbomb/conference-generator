@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jeju+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+body{
+  background: radial-gradient(52.52% 32.71% at 50% 97.66%, rgba(36, 160, 181, 0.20) 0%, rgba(36, 160, 181, 0.00) 100%), #02191D;
+}
+
+:root{
+  --primary: #052F35;
+  --border: #0E464F;
+  --white: #FFFFFF;
+  --light: #197686;
+}
+
+@theme {
+  --font-display: "Jeju Myeongjo";
+  --font-body: "Roboto";
+  --font-game: "Road Rage", "cursive";
+}
+
+@utility container {
+  padding-inline: 10px;
+  margin-inline: auto;
+
+  @variant lg {
+    padding-inline: 80px;
+  }
+}
