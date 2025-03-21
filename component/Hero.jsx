@@ -38,7 +38,7 @@ const Hero = () => {
     }
   }
   return (
-    <section className=''>
+    <section className='p-4'>
       <div class="max-w-3xl w-full mt-5 rounded-3xl  border-[#197686] border-1 md:mx-auto overflow-hidden z-10">
 
         <div className='p-8'>
